@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, sans-serif;
+  font-size: 1.4rem;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexCol {
+  flex-direction: column;
+}
+
+ul {
+  width: 50%;
+}
+
+li {
+  list-style: none;
+  margin-top: 4px;
+}
+
+li a {
+  color: #576b95;
+  font-size: 1.2rem;
+  text-align: center;
+  display: block;
+}
